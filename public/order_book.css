@@ -1,0 +1,32 @@
+.app{
+    display: flex; 
+    flex-direction: column;
+}
+
+.app-top{
+    display: flex;
+    justify-content: space-around;
+}
+.app-left{
+    display: flex; 
+    flex-direction: column; 
+}
+
+.app-bottom{
+    display:flex; 
+    justify-content: space-around;
+}
+.order-book {
+    height: 600px; 
+    overflow-y:scroll;
+}
+
+a{
+    margin-left: 2px; 
+    margin-right: 2px; 
+}
+
+a:hover{
+    cursor:pointer; 
+    color:blue; 
+}
